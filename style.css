@@ -14,10 +14,19 @@ main{
 }
 
 header {
+    font-family: inherit;
     padding: 1rem;
     display: flex;
-    background-color:#727070a7;
+    justify-content: space-between;
+    background-color:#1e63caa7;
     justify-content:flex-end;
+    align-items: flex-end;
+}
+
+h2{
+    color: #f5f5f5;
+    flex: none;
+    text-align: left;
 }
 
 .search{
@@ -27,6 +36,7 @@ header {
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+    flex: flex-end;
 }
 
 .search::placeholder{
