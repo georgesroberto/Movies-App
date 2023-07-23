@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie App</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
         <h2>SEARCH FOR YOUR FAVORITE MOVIE</h2>
         <form id="form">
-            <input 
-                type="text" 
-                id="search" 
-                placeholder="Search" 
-                class="search" 
-                autocomplete="off"
-            />
+            <button class="btn btn-default">
+                <input 
+                    type="text" 
+                    id="search" 
+                    placeholder="Type then Click to Search" 
+                    class="search" 
+                    autocomplete="off"
+                />
+                <i class="fas fa-search"></i>
+            </button>
             <!-- <div class="overview">
                 <h3>Overview: </h3>
                 ${overview}
@@ -25,5 +31,12 @@
         </form>
     </header>
     <main id="main"></main>
+    <footer>
+        <div class="footer">
+            <h5>Website Designed with love by <a href="https://roberto-georges.vercel.app">Dev Georges</a>.</h5>
+            <span><i class="fab fa-whatsapp" style="background-color: green; text-size-adjust: 26px;"></i><a href="https://wa.me/+25796807437">0796807438</a></span>
+            <span>Reach out: <a href="tel:+254796807438">0796807438</span>
+        </div>
+    </footer>
 </body>
 </html>

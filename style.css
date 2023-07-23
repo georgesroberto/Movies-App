@@ -122,3 +122,23 @@ h2{
 .movie:hover .overview {
     transform: translateY(0);
 }
+
+.footer {
+    background-color: rgb(36, 35, 35);
+    color: #f1f1f1;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    letter-spacing: 1.5px;
+}
+
+.footer a{
+    color: rgb(73, 73, 228);;
+}
+
+.footer h3{
+    margin: 2px;
+}
